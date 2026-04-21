@@ -1,36 +1,24 @@
 # 🔐 authapp-ci
 
-Proyecto de autenticación con **Java, Maven, Docker y Jenkins**, pensado para demostrar pruebas y automatización CI sobre una aplicación simple.
+Proyecto de autenticación con **Java, Maven, Docker y Jenkins**, pensado para demostrar integración entre desarrollo backend y automatización CI.
 
-![Java](https://img.shields.io/badge/Java-blue?logo=openjdk) ![Maven](https://img.shields.io/badge/Maven-3.x-orange?logo=apachemaven) ![Docker](https://img.shields.io/badge/Docker-containerized-blue?logo=docker) ![Jenkins](https://img.shields.io/badge/Jenkins-CI-D24939?logo=jenkins)
+![Java](https://img.shields.io/badge/Java-blue?logo=openjdk) ![Maven](https://img.shields.io/badge/Maven-3.x-orange?logo=apachemaven) ![Docker](https://img.shields.io/badge/Docker-blue?logo=docker) ![Jenkins](https://img.shields.io/badge/Jenkins-CI-D24939?logo=jenkins)
 
----
+## Descripción
 
-## 📌 Objetivo
+El repositorio contiene una aplicación Java en `authapp/`, pruebas unitarias, `docker-compose.yml` y `Jenkinsfile`, además de un Dockerfile para Jenkins. Está orientado a mostrar una cadena simple de desarrollo, prueba y ejecución automatizada.
 
-Mostrar una integración entre desarrollo backend, pruebas y automatización de pipeline con Jenkins y contenedores.
+## Objetivo
 
-## 🧩 Qué incluye
+Disponer de un ejemplo práctico de autenticación backend con pipeline reproducible y soporte de contenedores.
 
-- Aplicación Java bajo `authapp/`.
-- Pruebas unitarias sobre autenticación.
-- `docker-compose.yml` para servicios auxiliares.
-- `Jenkinsfile` para pipeline.
-- Dockerfile para el entorno Jenkins.
-
-## ▶️ Uso básico
+## Uso
 
 ```bash
-git clone git@github.com:Carl0gonzalez/authapp-ci.git
-cd authapp-ci
 docker compose up -d
 ```
 
-## 💡 Valor del proyecto
-
-Es una buena pieza para mostrar conocimientos de CI, testing y empaquetado reproducible en un contexto backend.
-
-## 👤 Autor
+## Autor
 
 **Carlo González**
 
